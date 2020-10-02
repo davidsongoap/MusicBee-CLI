@@ -71,7 +71,7 @@ python bee.py
 
 ## Contributing
 
-Contributins to MusicBeeCLI are greatly appreciated!
+Contributions to MusicBeeCLI are greatly appreciated!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -85,7 +85,3 @@ Davidson Gonçalves - davidsongoap@gmail.com
 
 Project Link: https://github.com/davidsongoap/MusicBee-CLI
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-MusicBeeIPC was created by Kerli Low (kerlilow@gmail.com) under the BSD 2-Clause License
