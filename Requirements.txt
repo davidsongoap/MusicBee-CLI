@@ -1,2 +1,2 @@
-pywin32
 colorama
+pywin32
