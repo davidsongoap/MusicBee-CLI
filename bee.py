@@ -107,18 +107,6 @@ def show_song_lyrics():
     else:
         colored_print("no lyrics available for this song", "yellow")
 
-def toggle_repeat():
-    curr_state = mb.get_repeat()
-    print(curr_state)
-    if curr_state == MBRM_None:
-        mb.set_repeat(MBRM_One)
-        colored_print("Repeat turned on", "green")
-    elif curr_state == MBRM_One:
-        mb.set_repeat(MBRM_All)
-        colored_print("Repeat turned off", "green")
-    elif curr_state == MBRM_All:
-        mb.set_repeat(MBRM_One)
-        colored_print("Repeat turned on", "green")
 
 def print_help():
     print("""
@@ -128,7 +116,6 @@ current song              - cs
 skip                      - skip <seconds>
 show lyrics               - lrc
 clear screen              - cls
-toggle repeat             - rp
 play the whole library    - lib
 """)
 
@@ -144,18 +131,16 @@ def handle_input(inp):
         play_song(arg)
     elif command == "h":
         print_help()
-    elif command == "pl":
-        playlist(arg)
     elif command == "cs":
         show_current_song()
     elif command == "skip":
         skip(arg)
     elif command == "lrc":
         show_song_lyrics()
+    elif command == "pl":
+        play_list(arg)
     elif command == "lib":
         back_to_library()
-    elif command == "rp":
-        toggle_repeat()
     elif command in "cls":
         clear_screen()
 
