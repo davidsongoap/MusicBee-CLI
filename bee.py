@@ -137,8 +137,6 @@ def handle_input(inp):
         skip(arg)
     elif command == "lrc":
         show_song_lyrics()
-    elif command == "pl":
-        play_list(arg)
     elif command == "lib":
         back_to_library()
     elif command in "cls":
