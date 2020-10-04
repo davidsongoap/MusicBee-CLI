@@ -81,7 +81,7 @@ Contributions to MusicBeeCLI are greatly appreciated!
 
 ## Contact
 
-Davidson Gonçalves - davidsongoap@gmail.com
+Davidson Gonçalves - davisongoap@gmail.com
 
 Project Link: https://github.com/davidsongoap/MusicBee-CLI
 
