@@ -60,6 +60,7 @@ python bee.py
 ## Features
 
 - Play a Song - `ps <song name>`
+- Choose a Playlist - `pl`
 - Set Volume - `sv <value>`
 - Show Current Song - `cs`
 - Skip Forward (use negative number to go backwards) - `skip <seconds>`
